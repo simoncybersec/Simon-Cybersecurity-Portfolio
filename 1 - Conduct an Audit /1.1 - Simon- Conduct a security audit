@@ -1,1 +1,129 @@
+Controls and Compliance Assessment
+Case Study
+This is based on a fictional company:
+GreenLeaf Organics is a mid-sized organic food retailer based in Canada. The company operates both physical stores and an e-commerce platform, selling organic produce, packaged foods, and eco-friendly products. With the rapid growth of their online sales, GreenLeaf Organics has expanded its customer base to include international buyers, particularly from the European Union (E.U.) and the United States. However, this growth has exposed the company to new cybersecurity risks and compliance challenges.
+The Chief Information Security Officer (CISO) has initiated an internal IT audit to assess the company’s security posture and ensure compliance with relevant regulations. The CISO is particularly concerned about the security of customer data, payment processing systems, and adherence to international data protection laws. The goal of the audit is to identify gaps in controls, mitigate risks, and ensure compliance with standards such as the General Data Protection Regulation (GDPR) and the Payment Card Industry Data Security Standard (PCI DSS).
+
+Scenario
+GreenLeaf Organics: Scope, Goals, and Risk Assessment Report
+Scope
+The scope of the audit includes all IT assets, systems, and processes related to:
+E-commerce platform and payment processing systems
+Customer data storage and management
+Employee access controls and endpoint security
+Compliance with GDPR, PCI DSS, and other relevant regulations
+Goals
+Assess the current state of IT controls and compliance practices.
+Identify risks and vulnerabilities in the company’s security posture.
+Provide actionable recommendations to improve controls and ensure compliance.
+Current Assets
+Assets managed by the IT Department include:
+E-commerce platform (hosted on AWS)
+Payment processing systems (credit card and online payment gateways)
+Customer databases (containing personal and payment information)
+Employee devices (laptops, smartphones, and tablets)
+Internal network and cloud storage systems
+Physical security systems (CCTV, access control systems)
+Risk Assessment
+Risk Description:
+GreenLeaf Organics lacks adequate controls for securing customer data and payment systems. Additionally, the company may not be fully compliant with GDPR and PCI DSS requirements, exposing it to potential fines and reputational damage.
+Control Best Practices:
+The company should implement the NIST Cybersecurity Framework (CSF) to identify, protect, detect, respond, and recover from cybersecurity threats. Key focus areas include:
+Implementing least privilege access for employees
+Encrypting sensitive data at rest and in transit
+Establishing a disaster recovery plan and regular backups
+Conducting regular vulnerability assessments and penetration testing
+Risk Score:
+On a scale of 1 to 10, the risk score is 7.5, indicating a significant risk due to inadequate controls and compliance gaps.
+Additional Comments:
+The potential impact of a data breach or compliance violation is high, given the sensitive nature of customer data and the company’s international operations.
+
+Controls Assessment Checklist
+Yes / No / ?
+Control
+Explanation
+No
+Least Privilege
+Employees have unrestricted access to customer data, increasing breach risks.
+No
+Disaster Recovery Plan
+No formal plan exists to ensure business continuity in case of a breach.
+Yes
+Firewall
+A firewall is in place to block unauthorized traffic.
+?
+Password Policies
+Password requirements are weak and not enforced consistently.
+Yes
+Antivirus
+Antivirus software is installed but not regularly updated.
+No
+Backups
+No regular backup process exists for critical data.
+No
+Encryption
+Sensitive data is not encrypted, leaving it vulnerable to theft.
+No
+Intrusion Detection System (IDS)
+No IDS is in place to detect potential intrusions.
+Yes
+CCTV
+Surveillance cameras are operational but not monitored 24/7.
+Yes
+Fire Detection
+Fire detection systems are in place but not regularly tested.
+
+
+Compliance Checklist
+Payment Card Industry Data Security Standard (PCI DSS)
+Yes / No / ?
+Best Practice
+Explanation
+No
+Restricted Access to Payment Data
+All employees can access customer payment information.
+No
+Secure Storage of Payment Data
+Payment data is stored in an unencrypted format.
+No
+Encryption of Payment Data
+No encryption is applied to payment data during transmission or storage.
+
+General Data Protection Regulation (GDPR)
+Yes / No / ?
+Best Practice
+Explanation
+No
+Protection of E.U. Customer Data
+No specific measures are in place to protect E.U. customer data.
+Yes
+Privacy Policy
+A privacy policy exists but is not fully aligned with GDPR requirements.
+
+System and Organization Controls (SOC 2)
+Yes / No / ?
+Best Practice
+Explanation
+No
+User Access Policies
+No formal access control policies are in place.
+Yes
+Data Integrity
+Data integrity is maintained but not regularly audited.
+No
+Data Availability
+Data is accessible to all employees, increasing the risk of misuse.
+
+
+Recommendations
+To address the identified gaps, GreenLeaf Organics should:
+Implement least privilege access to restrict employee access to sensitive data.
+Develop and enforce a disaster recovery plan and regular backup process.
+Strengthen password policies and implement multi-factor authentication (MFA).
+Encrypt all sensitive data, both at rest and in transit.
+Deploy an Intrusion Detection System (IDS) to monitor for potential threats.
+Conduct regular employee training on cybersecurity best practices.
+Update privacy policies and ensure compliance with GDPR and PCI DSS.
+By addressing these gaps, GreenLeaf Organics can significantly improve its security posture and reduce the risk of fines, breaches, and reputational damage.
+
 
